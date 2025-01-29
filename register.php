@@ -7,7 +7,7 @@
         <div class="login-container">
             <div class="circle circle-one"></div>
             <div class="form-container">
-                <h1 class="opacity">Sign Up</h1>
+                <h1 class="opacity"> Up</h1>
                 <form action="includes/register.inc.php" method="post">
                     <input type="text"  name="username" placeholder="USERNAME" />
                     <input type="password"  name="password" placeholder="PASSWORD" />
