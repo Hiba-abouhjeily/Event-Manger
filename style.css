@@ -1,7 +1,19 @@
+.logo {
+    height: 50px; 
+    margin-right: 10px;
+}
+
+.site-title {
+    color: #2b6cb0;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
 :root {
-    --background: #1a1a2e;
+    --background: #ffffff;
     --color: #ffffff;
-    --primary-color: #0f3460;
+    --primary-color: #2b6cb0;
 }
 
 * {
@@ -28,7 +40,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color);
+    color:#2b6cb0;
 }
 
 h1 {
@@ -45,12 +57,13 @@ h1 {
 .login-container {
     position: relative;
     width: 22.2rem;
+    color: #2b6cb0;
 }
 .form-container {
     border: 1px solid hsla(0, 0%, 65%, 0.158);
-    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
     z-index: 99;
     padding: 2rem;
     -webkit-border-radius: 10px;
@@ -86,8 +99,8 @@ h1 {
 }
 
 .login-container form button {
-    background-color: var(--primary-color);
-    color: var(--color);
+    background-color:#2b6cb0;
+    color:#ffffff;
     display: block;
     padding: 13px;
     border-radius: 5px;
@@ -108,6 +121,7 @@ h1 {
     -moz-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
+
 }
 
 .login-container form button:hover {
@@ -182,6 +196,7 @@ h1 {
 
 .theme-btn:hover {
     width: 40px !important;
+   
 }
 
 @keyframes wobble {

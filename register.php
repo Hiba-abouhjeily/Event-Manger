@@ -1,17 +1,13 @@
-
-<?php
-require_once "./includes/config_session.inc.php";
-require_once "./includes/register_view.inc.php";
-?>
-
-<body>
+<body></body>
     <link rel="stylesheet" href="style.css" />
+    <header class="header">
+        <img src="c:\Users\user\Downloads\logo.JPG" alt="event manager ai" class="logo" />
+    </header>
     <section class="container">
         <div class="login-container">
             <div class="circle circle-one"></div>
             <div class="form-container">
-                <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
-                <h1 class="opacity">Sing Up</h1>
+                <h1 class="opacity">Sign Up</h1>
                 <form action="includes/register.inc.php" method="post">
                     <input type="text"  name="username" placeholder="USERNAME" />
                     <input type="password"  name="password" placeholder="PASSWORD" />
@@ -28,7 +24,4 @@ require_once "./includes/register_view.inc.php";
         <div class="theme-btn-container"></div>
     </section>
 
-    <?php
-        check_signup_errors();
-?>
 </body>
